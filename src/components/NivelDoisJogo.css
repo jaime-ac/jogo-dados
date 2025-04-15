@@ -19,10 +19,7 @@ dialog{
 }
     .dialog__container--regras{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: whitesmoke;
+        background-color: darkgray;
         width: 305px;
         height: 260px;
         border-radius: 15px;
@@ -36,18 +33,21 @@ dialog{
             background-color: #FFD700;
             padding-right: 5px;
         }
-        .dialog__container--regras__texto{
+        .dialog__container--regras__texto--dois{
             height: 90%;
             width: 100%;
             display: flex;
-            justify-content: center;
-            align-items: center;
             flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            gap: 7px;
+            padding-left: 5px;
             background-color: transparent;
-            gap: 15px;
             font-family: cursive;
-            font-weight: bolder;
         }
+            .dialog__container--regras__texto--jogo{
+                font-size: 10px;
+            }
 
 .nivel__dois--top{
     display: flex;
