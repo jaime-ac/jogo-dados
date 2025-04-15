@@ -1,0 +1,172 @@
+.container__nivel--tres{
+    height: calc(100vh - 80px);
+    /* background-color: #c0b6b6; */
+    background-image: url('/public/nivel-tres.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+dialog{
+    height: 400px;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    width: 40%;
+    position: fixed;
+    top: 37%;
+    left: 41%;
+    transform: translate(-70%, -50%);
+}
+    .dialog__container--regras{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: whitesmoke;
+        width: 305px;
+        height: 260px;
+        border-radius: 15px;
+    }
+        .dialog__container--botao{
+            height: 10%;
+            width: 100%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            background-color: #FFD700;
+            padding-right: 5px;
+        }
+        .dialog__container--regras__texto{
+            height: 90%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: transparent;
+            gap: 15px;
+            font-family: cursive;
+            font-weight: bolder;
+        }
+
+        .nivel__tres--top{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 35%;
+            background-color: transparent;
+            gap: 10px;
+        }
+            .nivel__tres--regras{
+                height: 10%;
+                width: 100%;
+                display: flex;
+                justify-content: end;
+                align-items: start;
+                padding: 5px;
+            }
+                .nivel__tres--regras__botao{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 20px;
+                    width: 100px;
+                    font-weight: bold;
+                    font-family: cursive;
+                    cursor: pointer;
+                }
+                .nivel__tres--card{
+                    height: 90%;
+                    width: 100%;
+                    background-color: transparent;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                }
+                    .card__dado--tres{
+                        height: 130px;
+                        width: 130px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: none;
+                        border-radius: 20px;
+                        box-shadow: 0 0 8px 4px #fff; 
+                        background-color: transparent;
+                        font-size: 200px;
+                        color: #fff;
+                        
+                    }
+
+        .nivel__tres--center{
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            height: 10%;
+            width: 100%;
+            background-color: transparent;
+        }
+            .nivel__tres--botao__jogar{
+                height: 40px;
+                width: 150px;
+                border-radius: 10px;
+                font-size: 25px;
+                font-weight: bold;
+                font-family: cursive;
+                cursor: pointer;
+                margin-top: 10px;
+            }
+        
+        .nivel__tres--bottom{
+            height: 55%;
+            width: 100%;
+            background-color: transparent;
+        }
+            .nivel__tres--meta__tentativas{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 5px;
+                height: 10%;
+                width: 100%;
+                background-color: transparent;
+            }
+                .nivel__tres--meta__tentativas--textos{
+                    font-size: 18px;
+                    font-family: cursive;
+                    font-weight: bolder;
+                    color: #fff;
+                    text-shadow: 0 0 5px rgb(10, 10, 10), 0 0 10px rgb(10, 10, 10), 0 0 15px rgb(10, 10, 10);
+                }
+    
+            .nivel__tres--card__resultado{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 70%;
+                width: 100%;
+                background-color: transparent;
+            }
+                .nivel__tres--card__resultado--imagem{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 270px;
+                    width: 270px;
+                    border: none;
+                    border-radius: 5px;
+                    box-shadow: inset 0 0 8px 10px #fff; 
+                    background-color: transparent;
+                    font-size: 40px;
+                }
+            .nivel__tres--pontos__situacao{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+                height: 20%;
+                width: 100%;
+                background-color: transparent;
+            }

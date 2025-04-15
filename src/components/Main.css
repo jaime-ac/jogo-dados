@@ -1,0 +1,6 @@
+.container__main{
+    height: calc(100vh - 80px);
+    background-image: url('/public/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
